@@ -1,0 +1,39 @@
+
+1 . git config — list , it helps display the configuration of the newly created repository
+
+2 . git add . , this adds the specified file to the staging for changes to committed & pushed
+3 . git commit -m “ “ , this helps to commit the change with a corresponding message 
+4 . git push origin main , this pushes the changes made locally to the remote repository the “main” specifies the branch where the change has been committed
+5 . git pull 
+
+———————————————————————————————————————————————
+6 . git branch 
+7 . git checkout main
+8 . git merge
+
+———————————————————————————————————————————————
+git issues :-
+
+create issue thorugh issue tab 
+assign collaboration 
+for issue in local repository
+git add .
+git commit -m “Change #1: made changes to text file”
+git push origin main
+
+———————————————————————————————————————————————
+collaborating 
+forked repository
+git clone
+git remote add upstream <url>
+git fetch upstream
+git merge upstream/main
+git push origin main 
+the gile is created on the local and pushed it to the forked repository
+git add . 
+git commit -m ”Inserted a new text file”
+git push origin main 
+
+*the pull request on “collaborator” repository , which was approved by user then this merged changes across repository
+
+———————————————————————————————————————————————
